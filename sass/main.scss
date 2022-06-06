@@ -1,5 +1,5 @@
 .navColor{
-    background-color: #f5f5dc;
+    background-color: rgb(249, 235, 200);
 }
 
 .blackColorText{
@@ -11,26 +11,26 @@
 }
 
 .hero{
-    height: 100%;
-    background-color: #f5f5dc;
+    height: 80vh;
+    background-color: rgb(254, 251, 231);
 }
 
 .galery{
-    background-color: #f5f5dc;
+    background-color: rgb(254, 251, 231);
 }
 
 .galeryCards{
-    color: #f5f5dc;
-    background-color:rgb(84, 69, 50);
+    color: #fff;
+    background-color:rgb(98, 115, 119);
 }
 
 .foo{
-    background-color: #deb887;
+    background-color: rgb(160, 188, 194);
 }
 
 .icons{
-    color: #f5f5dc;
+    color: rgb(98, 115, 119);
 
     &:hover{
-    color:rgb(84, 69, 50);}
+    color:rgb(140, 164, 170);}
 }

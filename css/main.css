@@ -1,5 +1,5 @@
 .navColor {
-  background-color: #f5f5dc; }
+  background-color: #f9ebc8; }
 
 .blackColorText {
   color: #0a0a0a; }
@@ -8,20 +8,20 @@
   color: #fff; }
 
 .hero {
-  height: 100%;
-  background-color: #f5f5dc; }
+  height: 80vh;
+  background-color: #fefbe7; }
 
 .galery {
-  background-color: #f5f5dc; }
+  background-color: #fefbe7; }
 
 .galeryCards {
-  color: #f5f5dc;
-  background-color: #544532; }
+  color: #fff;
+  background-color: #627377; }
 
 .foo {
-  background-color: #deb887; }
+  background-color: #a0bcc2; }
 
 .icons {
-  color: #f5f5dc; }
+  color: #627377; }
   .icons:hover {
-    color: #544532; }
+    color: #8ca4aa; }

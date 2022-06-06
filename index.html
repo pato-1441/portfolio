@@ -3,12 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>portfolio patricio</title>
+    <title>portfolio patricio</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2a09230c59.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
       <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navColor">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html">patricioalbornoz</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +22,7 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link blackColorText" href="./pages/Home.html">Home</a>
+                        <a class="nav-link blackColorText" href="index.html">Home</a>
                       </li>
                   <li class="nav-item">
                     <a class="nav-link blackColorText" href="./pages/projects.html">Projects</a>
@@ -26,14 +31,37 @@
                     <a class="nav-link blackColorText" href="./pages/about.html">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link blackColorText" aria-current="page" href="./pages/contact.html">Contact</a>
+                    <a class="nav-link blackColorText" href="./pages/contact.html">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
       </header>
-
+      <main>
+          <div class="container-fluid p-5 hero">
+              <div class="row">
+                  <div class="col-12 heroText">
+                      <p>Welcome to my Portfolio</p>
+                  </div>
+              </div>
+          </div>
+      </main>
+      <footer>
+        <div class="container-fluid fixed-bottom p-2 foo">
+            <div class="row">
+                <div class="col-4 d-flex justify-content-center">
+                    <a href="https://www.linkedin.com/in/patoalbornoz/" target="_blank"><i class="fa-brands fa-linkedin fa-xl icons"></i></a>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <a href="https://github.com/pato-1441" target="_blank"><i class="fa-brands fa-github fa-xl icons"></i></a>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <a href="https://www.instagram.com/patoalbornozz/" target="_blank"><i class="fa-brands fa-instagram fa-xl icons"></i></a>
+                </div>
+            </div>
+        </div>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>

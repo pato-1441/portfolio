@@ -1,0 +1,14 @@
+.navColor {
+  background-color: #f5f5dc; }
+
+.hero {
+  height: 100vh;
+  background-color: #f5f5dc; }
+
+.foo {
+  background-color: #deb887; }
+
+.icons {
+  color: beige; }
+  .icons:hover {
+    color: #544532; }

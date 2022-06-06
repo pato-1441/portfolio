@@ -2,9 +2,26 @@
     background-color: #f5f5dc;
 }
 
+.blackColorText{
+    color: #0a0a0a;
+}
+
+.whiteColorText{
+    color: #fff;
+}
+
 .hero{
-    height: 100vh;
+    height: 100%;
     background-color: #f5f5dc;
+}
+
+.galery{
+    background-color: #f5f5dc;
+}
+
+.galeryCards{
+    color: #f5f5dc;
+    background-color:rgb(84, 69, 50);
 }
 
 .foo{
@@ -12,7 +29,7 @@
 }
 
 .icons{
-    color: beige;
+    color: #f5f5dc;
 
     &:hover{
     color:rgb(84, 69, 50);}

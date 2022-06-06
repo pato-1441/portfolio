@@ -1,14 +1,27 @@
 .navColor {
   background-color: #f5f5dc; }
 
+.blackColorText {
+  color: #0a0a0a; }
+
+.whiteColorText {
+  color: #fff; }
+
 .hero {
-  height: 100vh;
+  height: 100%;
   background-color: #f5f5dc; }
+
+.galery {
+  background-color: #f5f5dc; }
+
+.galeryCards {
+  color: #f5f5dc;
+  background-color: #544532; }
 
 .foo {
   background-color: #deb887; }
 
 .icons {
-  color: beige; }
+  color: #f5f5dc; }
   .icons:hover {
     color: #544532; }

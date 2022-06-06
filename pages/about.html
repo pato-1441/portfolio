@@ -6,7 +6,7 @@
     <title>portfolio patricio</title>    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2a09230c59.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/main.css">
@@ -42,18 +42,41 @@
               <section class="aboutContainer">
                 <!--terminan cards/galery-->
                 <div class="container">
-                    <div class="row p-5">
+                    <div class="row p-5 justify-content-center">
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="../assets/patricioalbornoz.jpeg" class="img-fluid rounded-start" alt="...">
+                                    <img src="../assets/patricioalbornoz.jpeg" class="img-fluid rounded" alt="foto de patricio albornoz">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-title">Sobre mi</h5>
+                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, cumque. Itaque, dignissimos officiis ratione reiciendis hic aspernatur tenetur laudantium praesentium nulla atque nemo officia odit, vitae aperiam sunt minus voluptas corporis eligendi ut et ipsa, veniam harum. Ratione fuga obcaecati ab nihil eius! Id rerum quia nam, natus molestias delectus?.</p>
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nisi quas cumque. Laudantium perspiciatis provident facilis corrupti facere assumenda neque.</p>
+                                    <!--trigger modal -->
+                                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                            Curriculum
+                                        </button>                                    
+                                    <!--modal-->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-lg">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Curriculum</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                    </div>
+                                                    <div class="modal-body justify-content-center">
+                                                    <img class="" src="../assets/curriculum.png" alt="curriculum de patricio albornoz">
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--termina modal-->
                                     </div>
+                                    <!--termina cardbody-->
                                 </div>
                             </div>
                         </div>

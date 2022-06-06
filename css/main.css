@@ -1,3 +1,6 @@
+* {
+  font-family: 'Barlow', sans-serif; }
+
 .navColor {
   background-color: #f9ebc8; }
 
@@ -8,15 +11,34 @@
   color: #fff; }
 
 .hero {
-  height: 80vh;
+  height: 85vh;
   background-color: #fefbe7; }
 
 .galery {
   background-color: #fefbe7; }
 
 .galeryCards {
-  color: #fff;
-  background-color: #627377; }
+  color: #fff; }
+
+.aboutContainer {
+  height: 85vh;
+  background-color: #fefbe7; }
+
+.formContainer {
+  height: 85vh;
+  background-color: #fefbe7; }
+
+.formContainerTextArea {
+  resize: none; }
+
+.farewellContainer {
+  background-color: #fefbe7; }
+
+.farewellDiv {
+  background-color: #fefbe7; }
+
+.farewellDivAnchor {
+  color: #f9ebc8; }
 
 .foo {
   background-color: #a0bcc2; }

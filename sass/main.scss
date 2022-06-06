@@ -1,3 +1,7 @@
+*{
+    font-family: 'Barlow', sans-serif;
+}
+
 .navColor{
     background-color: rgb(249, 235, 200);
 }
@@ -11,7 +15,7 @@
 }
 
 .hero{
-    height: 80vh;
+    height: 85vh;
     background-color: rgb(254, 251, 231);
 }
 
@@ -21,7 +25,32 @@
 
 .galeryCards{
     color: #fff;
-    background-color:rgb(98, 115, 119);
+}
+
+.aboutContainer{
+    height: 85vh;
+    background-color: rgb(254, 251, 231);
+}
+
+.formContainer{
+    height: 85vh;
+    background-color: rgb(254, 251, 231);
+}
+
+.formContainerTextArea{
+    resize: none;
+}
+
+.farewellContainer{
+    background-color: rgb(254, 251, 231);
+}
+
+.farewellDiv{
+    background-color: rgb(254, 251, 231);
+}
+
+.farewellDivAnchor{
+    color: rgb(249, 235, 200);
 }
 
 .foo{

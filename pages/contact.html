@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>portfolio patricio</title>    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2a09230c59.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="../css/main.css">
+  </head>
+  <body>
+      <header>
+        <nav class="navbar navbar-expand-lg navColor">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html">patricioalbornoz</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
+          <main>
+              <div class="container-fluid farewellContainer pt-5">
+                  <div class="row pt-5 text-center">
+                      <div class="farewellDiv fs-2">
+                          <p class="fw-regular">Thanks for your visit!</p>                      
+                      </div>
+                      <div class="farewellDiv fs-1">
+                        <p class="fw-bold">Want to discuss a new project?</p>
+                      </div>
+                      <div class="farewellDiv fs-2">
+                        <p class="fw-regular">Send me an <a class="text-dark farewellDivAnchor" href="#">email</a>.</p>
+                      </div>
+                  </div>
+              </div>              
+              <section class="formContainer p-5">
+                <!--terminan cards/galery-->
+                <div class="container p-5">
+                    <div class="row">
+                        <form action="" method="get" class="col-12">
+                            <div class="mb-3">
+                                <label for="userName" class="form-label">Name</label>
+                                <input required="" type="text" class="form-control" id="userName" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input required="" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@email.com">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea required="" class="form-control formContainerTextArea" id="message" rows="3"></textarea>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#formSubmitted">Submit</button>
+                            </div>
+                            <!--modal-->
+                            <div class="modal fade" id="formSubmitted" tabindex="-1" aria-labelledby="formSubmitted" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="formSubmitted">Your message was sent!</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            We'll answer your message as soon as we can.
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--finmodal-->
+                        </form>
+                        <!--finform-->
+                    </div>
+                </div>                
+                <!--terminan cards/galery-->
+            </section>
+          </main>
+          <footer class="bg-dark text-center text-white">
+            <div class="container p-4 pb-0">
+              <!--arranca redes-->
+              <section class="mb-4">
+                <!--instagram-->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/patoalbornozz/" role="button"><i class="fab fa-instagram"></i></a>          
+                <!--linkedin-->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/patoalbornoz/" role="button"><i class="fab fa-linkedin-in"></i></a>          
+                <!--github-->
+                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/pato-1441" role="button"><i class="fab fa-github"></i></a>
+              </section>
+              <!--arranca redes-->
+            </div>
+            <!--copy-->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2022 Copyright:
+              <a class="text-white" href="https://github.com/pato-1441">Patricio Albornoz</a>
+            </div>
+            <!--copy-->
+          </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

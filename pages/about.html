@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2a09230c59.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="../css/main.css">
   </head>
   <body class="d-flex flex-column min-vh-100 bodyColor">
@@ -23,16 +24,16 @@
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link blackColorText" href="../index.html">Home</a>
                       </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./projects.html">Trabajos</a>
+                    <a class="nav-link blackColorText" href="./projects.html">Trabajos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./about.html">Sobre mi</a>
+                    <a class="nav-link blackColorText" href="./about.html">Sobre mi</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contacto</a>
+                    <a class="nav-link blackColorText" href="./contact.html">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -40,6 +41,7 @@
           </nav>
       </header>
           <main>
+            <div data-aos="fade-right" data-aos-delay="400" data-aos-duration="1500">
               <section class="aboutContainer">
                 <h4 class="pt-5 text-center">Sobre mi</h4>
                 <div class="container pt-2 pb-5">
@@ -50,21 +52,23 @@
                       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic nisi quas cumque. Laudantium perspiciatis provident facilis corrupti facere assumenda neque.</p>
                       <!--trigger modal -->
                       <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Curriculum
+                        Currículum
                     </button>                                    
                     <!--modal-->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                      <h5 class="modal-title" id="exampleModalLabel">Curriculum</h5>
+                                      <h5 class="modal-title" id="exampleModalLabel">Currículum</h5>
                                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body justify-content-center">
-                                      <img class="" src="../assets/curriculum.png" alt="curriculum de patricio albornoz">
+                                      <div class="modalImgCurriculum">
+                                        <img class="img-fluid" src="../assets/curriculum.png" alt="curriculum de patricio albornoz">
+                                      </div>
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                                     </div>
                                 </div>
                             </div>
@@ -74,6 +78,7 @@
                   </div>
                 </div>
             </section>
+          </div>
           </main>
           <footer class="mt-auto bg-dark text-center text-white">
             <div class="container p-4 pb-0">
@@ -96,5 +101,9 @@
             <!--copy-->
           </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

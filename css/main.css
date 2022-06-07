@@ -11,7 +11,6 @@
   color: #fff; }
 
 .hero {
-  height: 85vh;
   background-color: #fefbe7; }
 
 .galery {
@@ -21,11 +20,9 @@
   color: #fff; }
 
 .aboutContainer {
-  height: 85vh;
   background-color: #fefbe7; }
 
 .formContainer {
-  height: 85vh;
   background-color: #fefbe7; }
 
 .formContainerTextArea {

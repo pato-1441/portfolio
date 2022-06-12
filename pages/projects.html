@@ -1,132 +1,157 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>portfolio patricio</title> 
-    <link rel="shortcut icon" href="../assets/patapaton72.png" type="image/x-icon">   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/2a09230c59.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-    <link rel="stylesheet" href="../css/main.css">
-  </head>
-  <body class="d-flex flex-column min-vh-100 bodyColor">
-      <header>
-        <nav class="navbar navbar-expand-lg navColor">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img class="" src="../assets/patapaton72.png" alt="" width="36px"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav align-items-center">
-                    <li class="nav-item">
-                        <a class="nav-link blackColorText" href="../index.html">Home</a>
-                      </li>
-                  <li class="nav-item">
-                    <a class="nav-link blackColorText" href="./projects.html">Trabajos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link blackColorText" href="./about.html">Sobre mi</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link blackColorText" href="./contact.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>portfolio patricio</title>
+  <link rel="shortcut icon" href="../assets/patapaton72.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,700;1,500&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2a09230c59.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100 bodyColor">
+  <header>
+    <!--arranca navbar-->
+    <nav class="navbar navbar-expand-lg navColor">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img class="" src="../assets/patapaton72.png" alt="logoPato"
+            width="36px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a class="nav-link blackColorText" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link blackColorText" href="./projects.html">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link blackColorText" href="./about.html">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link blackColorText" href="./contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--termina navbar-->
+  </header>
+
+  <!--arranca main-->
+  <main>
+    <!--arrancan cards/galery-->
+    <section class="container-fluid galery p-5" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000"">
+        <h4 class=" pb-3">Trabajos realizados</h4>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="../assets/ojo.jpg" class="card-img-top" alt="logoNoctis">
+            <div class="card-body bg-dark galeryCards">
+              <h5 class="card-title">Website Noctis Tattoo</h5>
+              <p class="card-text">Las marcas en la piel hablan de nuestra historia. Contemos al mundo quien sos, a
+                través de tus tattoos. Actualmente tatuando en @almamatertattoo.</p>
+              <a href="https://www.instagram.com/noctis_tattoos/" target="_blank" class="btn btn-primary">Instagram</a>
             </div>
-          </nav>
-      </header>
-          <main>
-              <!--terminan cards/galery-->
-            <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1500">
-              <section class="container-fluid galery p-5">
-                <h4 class="pb-3">Trabajos realizados</h4>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                      <div class="card h-100">
-                        <img src="../assets/ojo.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-dark galeryCards">
-                          <h5 class="card-title">Website Noctis Tattoo</h5>
-                          <p class="card-text">Las marcas en la piel hablan de nuestra historia. Contemos al mundo quien sos, a través de tus tattoos. Actualmente tatuando en @almamatertattoo.</p>
-                          <a href="https://www.instagram.com/noctis_tattoos/" target="_blank" class="btn btn-primary">Instagram</a>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted">Realizado en 2022</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <img src="../assets/img2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-dark galeryCards">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted">Realizado en 2022</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <img src="../assets/img3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body bg-dark galeryCards">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                        <div class="card-footer">
-                          <small class="text-muted">Realizado en 2022</small>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                        <div class="card h-100">
-                          <img src="../assets/img5.jpg" class="card-img-top" alt="...">
-                          <div class="card-body bg-dark galeryCards">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                          <div class="card-footer">
-                            <small class="text-muted">Realizado en 2022</small>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
-              </section>
+            <div class="card-footer">
+              <small class="text-muted">Realizado en 2022</small>
             </div>
-            <!--terminan cards/galery-->
-          </main>
-          <footer class="mt-auto bg-dark text-center text-white">
-            <div class="container p-4 pb-0">
-              <!--arranca redes-->
-              <section class="mb-4">
-                <!--instagram-->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/patoalbornozz/" role="button"><i class="fab fa-instagram"></i></a>          
-                <!--linkedin-->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/patoalbornoz/" role="button"><i class="fab fa-linkedin-in"></i></a>          
-                <!--github-->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/pato-1441" role="button"><i class="fab fa-github"></i></a>
-              </section>
-              <!--arranca redes-->
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../assets/img2.jpg" class="card-img-top" alt="trabajo2">
+            <div class="card-body bg-dark galeryCards">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-            <!--copy-->
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-              © 2022 Copyright:
-              <a class="text-white" href="https://github.com/pato-1441">Patricio Albornoz</a>
+            <div class="card-footer">
+              <small class="text-muted">Realizado en 2022</small>
             </div>
-            <!--copy-->
-          </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </body>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../assets/img3.jpg" class="card-img-top" alt="trabajo3">
+            <div class="card-body bg-dark galeryCards">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Realizado en 2022</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="../assets/img5.jpg" class="card-img-top" alt="trabajo4">
+            <div class="card-body bg-dark galeryCards">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This card has even longer content than the first to show that equal height action.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Realizado en 2022</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--terminan cards/galery-->
+  </main>
+  <!--arranca footer-->
+  <footer class="mt-auto bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+      <!--arranca redes-->
+      <section class="mb-4">
+        <!--instagram-->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/patoalbornozz/"
+          role="button"><i class="fab fa-instagram"></i></a>
+        <!--linkedin-->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/patoalbornoz/"
+          role="button"><i class="fab fa-linkedin-in"></i></a>
+        <!--github-->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/pato-1441" role="button"><i
+            class="fab fa-github"></i></a>
+      </section>
+      <!--arranca redes-->
+    </div>
+    <!--copy-->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright: <a class="text-white" href="https://github.com/pato-1441">Patricio Albornoz</a>
+    </div>
+    <!--copy-->
+  </footer>
+  <!--termina footer-->
+
+  <!--arrancan scripts-->
+  <!--script Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+  <!--termina script Bootstrap-->
+  <!--scriptsAOS-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--terminan scriptsAOS-->
+  <!--terminan scripts-->
+</body>
+
 </html>

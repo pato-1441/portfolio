@@ -2,10 +2,10 @@
   font-family: 'Barlow', sans-serif; }
 
 .bodyColor {
-  background-color: #fefbe7; }
+  background-color: black; }
 
 .navColor {
-  background-color: #f9ebc8; }
+  background-color: black; }
 
 .blackColorText {
   color: #0a0a0a; }
@@ -14,31 +14,31 @@
   color: #fff; }
 
 .hero {
-  background-color: #fefbe7; }
+  background-color: black; }
 
 .galery {
-  background-color: #fefbe7; }
+  background-color: black; }
 
 .galeryCards {
   color: #fff; }
 
 .aboutContainer {
-  background-color: #fefbe7; }
+  background-color: black; }
 
 .modalImgCurriculum {
   width: 100%; }
 
 .formContainer {
-  background-color: #fefbe7; }
+  background-color: black; }
 
 .formContainerTextArea {
   resize: none; }
 
 .farewellContainer {
-  background-color: #fefbe7; }
+  background-color: black; }
 
 .farewellDiv {
-  background-color: #fefbe7; }
+  background-color: black; }
 
 .farewellDivAnchor {
   color: #f9ebc8; }

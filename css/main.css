@@ -1,5 +1,5 @@
 * {
-  font-family: 'Barlow', sans-serif; }
+  font-family: 'Arimo', sans-serif; }
 
 .bodyColor {
   background-color: black; }
@@ -8,10 +8,10 @@
   background-color: black; }
 
 .navIcons {
-  color: #fff;
+  color: #dadada;
   text-decoration: none; }
   .navIcons:hover {
-    color: red; }
+    color: white; }
 
 .blackColorText {
   color: #0a0a0a; }
@@ -23,7 +23,7 @@
   background-color: black; }
 
 .galery {
-  background-color: black; }
+  background-color: white; }
 
 .galeryCards {
   background-color: #0a0a0a;

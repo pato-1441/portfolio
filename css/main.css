@@ -23,14 +23,15 @@
   background-color: black; }
 
 .galery {
-  background-color: white; }
+  color: white;
+  background-color: black; }
 
-.galeryCards {
-  background-color: #0a0a0a;
-  color: #fff; }
+.testimoniosColor {
+  background-color: #000000; }
 
-.galeryCardsImgs {
-  filter: brightness(0.3); }
+.imgTestimonios {
+  border-radius: 50%;
+  border: 2px solid #fff; }
 
 .aboutContainer {
   background-color: black; }

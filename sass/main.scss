@@ -31,16 +31,17 @@
 }
 
 .galery{
-    background-color: rgb(255, 255, 255);
+    color: white;
+    background-color: rgb(0, 0, 0);
 }
 
-.galeryCards{
-    background-color: #0a0a0a;
-    color: #fff;
+.testimoniosColor{
+    background-color: #000000;
 }
 
-.galeryCardsImgs{
-    filter:brightness(0.3)
+.imgTestimonios{
+    border-radius: 50%;
+    border: 2px solid #fff;
 }
 
 .aboutContainer{

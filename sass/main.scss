@@ -10,6 +10,14 @@
     background-color: rgb(0, 0, 0);
 }
 
+.navIcons{
+    color: #fff;
+    text-decoration: none;
+
+    &:hover{
+    color:rgb(255, 0, 0);}
+}
+
 .blackColorText{
     color: #0a0a0a;
 }
@@ -27,7 +35,12 @@
 }
 
 .galeryCards{
+    background-color: #0a0a0a;
     color: #fff;
+}
+
+.galeryCardsImgs{
+    filter:brightness(0.3)
 }
 
 .aboutContainer{

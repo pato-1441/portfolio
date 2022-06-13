@@ -7,6 +7,12 @@
 .navColor {
   background-color: black; }
 
+.navIcons {
+  color: #fff;
+  text-decoration: none; }
+  .navIcons:hover {
+    color: red; }
+
 .blackColorText {
   color: #0a0a0a; }
 
@@ -20,7 +26,11 @@
   background-color: black; }
 
 .galeryCards {
+  background-color: #0a0a0a;
   color: #fff; }
+
+.galeryCardsImgs {
+  filter: brightness(0.3); }
 
 .aboutContainer {
   background-color: black; }

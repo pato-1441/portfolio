@@ -26,6 +26,10 @@
   color: white;
   background-color: black; }
 
+.galeryImg {
+  height: 15vh;
+  width: 100%; }
+
 .testimoniosColor {
   background-color: #000000; }
 

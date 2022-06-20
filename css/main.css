@@ -5,67 +5,24 @@
   font-family: 'Arimo', sans-serif;
   overflow-x: hidden; }
 
-.bodyColor {
-  background-color: black; }
-
-.navColor {
-  background-color: black; }
-
-.navIcons {
-  color: #dadada;
-  text-decoration: none; }
-  .navIcons:hover {
-    color: white; }
-
 .blackColorText {
   color: #0a0a0a; }
 
 .whiteColorText {
   color: #fff; }
 
-.hero {
-  background-color: black; }
-
-.galery {
+.navIcons {
   color: white;
-  background-color: black; }
+  text-decoration: none; }
+  .navIcons:hover {
+    color: white;
+    text-decoration: underline; }
 
-.galeryImg {
-  height: 15vh;
-  width: 100%; }
-
-.testimoniosColor {
-  background-color: #000000; }
-
-.imgTestimonios {
-  border-radius: 50%;
-  border: 2px solid #fff; }
-
-.aboutContainer {
-  background-color: black; }
-
-.modalImgCurriculum {
-  width: 100%; }
-
-.imgAbout {
-  width: 25rem;
-  border-radius: 50%;
-  border: 2px solid #fff; }
-
-.formContainer {
-  background-color: black; }
-
-.formContainerTextArea {
-  resize: none; }
-
-.farewellContainer {
-  background-color: black; }
-
-.farewellDiv {
-  background-color: black; }
-
-.farewellDivAnchor {
-  color: #f9ebc8; }
+.bodyColor {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/assets/wave-haikei.svg); }
 
 .foo {
   background-color: #a0bcc2; }
@@ -75,12 +32,27 @@
   .icons:hover {
     color: #8ca4aa; }
 
-.waves {
-  aspect-ratio: 960/600;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+.galery {
+  color: white; }
 
-.wavesLayer1 {
-  background-image: url(../assets/layered-waves-haikei.svg); }
+.galeryImg {
+  height: 12vh;
+  width: 100%; }
+
+.imgTestimonios {
+  border-radius: 50%;
+  border: 2px solid #fff; }
+
+.modalImgCurriculum {
+  width: 100%; }
+
+.imgAbout {
+  width: 25rem;
+  border-radius: 50%;
+  border: 2px solid #fff; }
+
+.formContainerTextArea {
+  resize: none; }
+
+.farewellDivAnchor {
+  color: #f9ebc8; }

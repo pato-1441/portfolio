@@ -1,0 +1,10 @@
+.foo{
+    background-color: rgb(160, 188, 194);
+}
+
+.icons{
+    color: rgb(98, 115, 119);
+
+    &:hover{
+    color:rgb(140, 164, 170);}
+}

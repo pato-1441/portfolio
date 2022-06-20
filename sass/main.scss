@@ -1,5 +1,9 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Arimo', sans-serif;
+    overflow-x: hidden;
 }
 
 .bodyColor{
@@ -92,4 +96,16 @@
 
     &:hover{
     color:rgb(140, 164, 170);}
+}
+
+.waves{
+    aspect-ratio: 960/600;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wavesLayer1{
+    background-image: url(../assets/layered-waves-haikei.svg);
 }

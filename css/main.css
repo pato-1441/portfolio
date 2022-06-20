@@ -22,10 +22,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/assets/wave-haikei.svg); }
+  background-color: #030d1a;
+  background-image: url(../assets/layered-waves-haikei.svg); }
 
 .foo {
-  background-color: #a0bcc2; }
+  position: relative; }
 
 .icons {
   color: #627377; }
@@ -38,6 +39,9 @@
 .galeryImg {
   height: 12vh;
   width: 100%; }
+
+.colorTestimonios {
+  color: #001122; }
 
 .imgTestimonios {
   border-radius: 50%;

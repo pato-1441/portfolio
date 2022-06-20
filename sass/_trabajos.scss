@@ -1,3 +1,4 @@
+$colorTextTestimonios:#001122;
 
 .galery{
     color: white;
@@ -6,6 +7,10 @@
 .galeryImg{
     height: 12vh;
     width: 100%;
+}
+
+.colorTestimonios{
+    color: $colorTextTestimonios;
 }
 
 .imgTestimonios{

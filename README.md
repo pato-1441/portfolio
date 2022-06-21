@@ -1,1 +1,2 @@
 # portfolio
+# En este repositorio podes encontrar todos los archivos tanto de HTML,CSS hasta los de SASS y los Assets del sitio, que conforman juntos, como producto final el sitio web del Portfolio de Patricio Albornoz. 

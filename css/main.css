@@ -34,6 +34,10 @@
 .bodyColorContact {
   background-image: url(../assets/waves4.svg); }
 
+.emojiWhatsapp {
+  height: 5rem;
+  width: 5rem; }
+
 .foo {
   position: relative; }
 

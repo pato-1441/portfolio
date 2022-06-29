@@ -1,10 +1,11 @@
-.foo{
+.foo {
     position: relative;
 }
 
-.icons{
+.icons {
     color: rgb(98, 115, 119);
 
-    &:hover{
-    color:rgb(140, 164, 170);}
+    &:hover {
+        color: rgb(140, 164, 170);
+    }
 }

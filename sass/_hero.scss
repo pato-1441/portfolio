@@ -1,5 +1,4 @@
-
-.bodyColor{
+.bodyColor {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -7,22 +6,22 @@
     background-image: url(../assets/waves2.svg);
 }
 
-.bodyColorProjects{
+.bodyColorProjects {
     @extend .bodyColor;
     background-image: url(../assets/stacked-waves-haikei.svg);
 }
 
-.bodyColorAbout{
+.bodyColorAbout {
     @extend .bodyColor;
     background-image: url(../assets/waves3.svg);
 }
 
-.bodyColorContact{
+.bodyColorContact {
     @extend .bodyColor;
     background-image: url(../assets/waves4.svg);
 }
 
-.emojiWhatsapp{
+.emojiWhatsapp {
     height: 5rem;
     width: 5rem;
 }

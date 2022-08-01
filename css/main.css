@@ -63,6 +63,11 @@
 .modalImgCurriculum {
   width: 100%; }
 
+#tailwindlogo{
+  width:3rem;
+}
+
+
 .imgAbout {
   width: 25rem;
   border-radius: 50%;
